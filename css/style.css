@@ -1,0 +1,17 @@
+.bgimg1 {
+	background-image: url(../img/background_1.jpg);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body, html	{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+
+}
+h1 {
+	color: blue;
+}
