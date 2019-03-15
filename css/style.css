@@ -6,6 +6,18 @@
 	background-size: cover;
 }
 
+#topblock {
+	height: 80%;
+}
+
+#clock {
+	color: white;
+	text-align: center;
+	background-color: #e9ecef7a;
+	margin-bottom: 0;
+}
+
+
 body, html	{
 	margin: 0;
 	padding: 0;
