@@ -1,6 +1,6 @@
 $(window).on("load", function() {
     // Animate loader off screen
-    $(".se-pre-con").fadeOut(3000);
+    $(".se-pre-con").delay(1000).fadeOut(3000);
   });
 
 var countDownDate = new Date("Sep 14, 2019 14:00:00").getTime();
