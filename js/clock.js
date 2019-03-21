@@ -1,3 +1,8 @@
+$(document).ready(function() {
+    // Animate loader off screen
+    $(".se-pre-con").fadeOut(1500);
+  });
+
 var countDownDate = new Date("Sep 14, 2019 14:00:00").getTime();
 
 // Update the count down every 1 second
