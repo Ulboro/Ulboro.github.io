@@ -88,8 +88,8 @@ body {
 
 .initials-logo{
 	color: white;
-	height: 20px;
 	z-index: 9999;
+	font-size: 25px;
 }
 .loader-circle {
   position: absolute;
