@@ -1,7 +1,9 @@
-$(window).on("load", function() {
+$(".content").on("click", function() {
     // Animate loader off screen
-    $("#particles-background").delay(2000).fadeOut(1500);
-    $("#particles-foreground").delay(2000).fadeOut(1500);
+    $("#particles-background").fadeOut(1500);
+    $("#particles-foreground").fadeOut(1500);
+    $(".loader-circle").fadeOut(1500);
+    $(".loader-line-mask").fadeOut(1500);
   });
 
 var countDownDate = new Date("Sep 14, 2019 14:00:00").getTime();
