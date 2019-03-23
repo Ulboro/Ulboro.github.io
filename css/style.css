@@ -101,6 +101,8 @@ body {
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
   margin-left: -60px;
   margin-top: -60px;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: 9999;
 }
 .loader-line-mask {
   position: absolute;
@@ -121,6 +123,7 @@ body {
   -moz-animation: rotate 1.2s infinite linear;
   -o-animation: rotate 1.2s infinite linear;
   animation: rotate 1.2s infinite linear;
+  z-index: 9;
 }
 .loader-line-mask .loader-line {
   width: 120px;

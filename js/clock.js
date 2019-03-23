@@ -6,6 +6,16 @@ $(".content").on("click", function() {
     $(".loader-line-mask").fadeOut(1500);
   });
 
+$(".loader-circle").on("mouseenter", function() {
+  console.log("YO");
+  $(".loader-circle").css("backgroundColor", "rgba(255, 255, 255, 0.2)");
+});
+
+$(".loader-circle").on("mouseleave", function() {
+  console.log("YO");
+  $(".loader-circle").css("backgroundColor", "rgba(255, 255, 255, 0.1)");
+})
+
 var countDownDate = new Date("Sep 14, 2019 14:00:00").getTime();
 
 // Update the count down every 1 second
